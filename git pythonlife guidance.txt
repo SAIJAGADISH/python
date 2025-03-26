@@ -1,0 +1,29 @@
+git installation:
+https://www.datacamp.com/tutorial/git-install-tutorial
+
+git config --global user.name "YOUR_USERNAME"
+git config --global user.email "myemail@example.com"
+
+Check the user name and email
+git config user.name
+git config user.email
+
+create repo 
+Clone the repo -> git clone "python.git"
+
+to check any new files added ->	git status ( new files show in red color)
+
+it will add to tracking(stagging) area-> git add -A
+
+again check status -> git status( new files added to staged and color changes to green)
+
+ 
+
+git commit -m "message"
+git push origin master
+git pull repo link
+
+
+git branch branchname
+git push origin branch name
+ 
