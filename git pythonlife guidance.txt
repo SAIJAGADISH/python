@@ -1,17 +1,14 @@
-git installation:
-https://www.datacamp.com/tutorial/git-install-tutorial
-
 git config --global user.name "YOUR_USERNAME"
 git config --global user.email "myemail@example.com"
 
-Check the user name and email
+# Check the user name and email
 git config user.name
 git config user.email
 
-create repo 
+# create repo 
 Clone the repo -> git clone "python.git"
 
-add a file to that cloned python folder
+# add a file to that cloned python folder
  
 to check any new files added ->	git status ( new files show in red color)
 
@@ -21,7 +18,7 @@ again check status -> git status( new files added as staged file and color chang
 
 git commit -m "New file added"
 
-git push origin master
+git push origin main
 git pull repo link
 
 
